@@ -1,5 +1,4 @@
 def zodiac_sign(day, month):
-#checks month and date
 
     if month == 1:
         astro_sign = 'Capricorn' if (day < 20) else 'aquarius'
@@ -26,7 +25,7 @@ def zodiac_sign(day, month):
         elif month == 12:
             astro_sign = 'Sagittarius' if (day < 22) else 'capricorn'
         print(astro_sign)
-        #driver code
+#       driver code
 if __name__ == '__main__':
     d = int(input("Enter Birthdate = "))
     m = int(input("Enter the Month = "))
