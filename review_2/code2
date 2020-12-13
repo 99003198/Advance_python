@@ -2,8 +2,10 @@ import re
 
 
 class astrro_sign:
+    #  class declaration
 
     print (re.match("[A-Z]+", "WELCOME"))
+#   regular expression
 
     def __init__(self):
         self.day = int(input("Enter Day = "))
